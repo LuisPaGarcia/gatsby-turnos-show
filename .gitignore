@@ -1,0 +1,16 @@
+
+.cache
+node_modules
+yarn-error.log
+
+# Build directory
+/public
+
+# macOS
+.DS_Store
+hidden/
+server/
+.env
+
+scripts.json
+package-lock.json

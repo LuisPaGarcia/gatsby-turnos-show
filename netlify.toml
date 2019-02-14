@@ -1,0 +1,16 @@
+[build]
+  command = "npm run build" 
+  publish = "./public" 
+  functions = "./server" 
+
+[build.environment]
+  GATSBY_URL_TIPOS_DE_TURNO= ''
+	GATSBY_URL_TURNOS_NO_VENDIDOS= ''
+	GATSBY_URL_TURNOS_VENDIDOS= ''
+
+  GATSBY_ENDPOINT_TIPOS_DE_TURNO=''
+	GATSBY_ENDPOINT_TURNOS_NO_VENDIDOS=''
+	GATSBY_ENDPOINT_TURNOS_VENDIDOS=''
+
+  GATSBY_EMAIL=''
+  GATSBY_TOKEN=''
